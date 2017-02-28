@@ -1,8 +1,8 @@
 /* 
  * File:   main.cpp
  * Author: Leah Omaiye
- * Created on February 26, 2017, 12:03 PM
- * Purpose: outputs sum and product of two integers
+ * Created on February 27, 2017, 9:32 PM
+ * Purpose: Enclose Rectangular Area
  */
 
 //System Libraries
@@ -18,31 +18,30 @@ using namespace std; //Name-space under which system libraries exist
 //Execution begins here
 int main() {
     //Declare variables
-    int no1, no2, tot_sum, tot_pro;
+    int width, height, totalLength;
     //Initialize variables
     
     //Input data
     
     //Map inputs to outputs or process the data
     cout << "Press return after entering a number.\n";
-    cout << "Enter the first number:\n";
-    cin >> no1;
-    cout << "Enter the second number:\n";
-    cin >> no2;
-    tot_pro = no2 * no1;
-    tot_sum = no1 + no2;
+    cout << "Enter the height:\n";
+    cin >> height;
+    cout << "Enter the width:\n";
+    cin >> width;
+    totalLength = 2 * width + 2 * height;
  
     //Output the transformed data
     
-    cout <<  "If you have ";
-    cout << no1;
-    cout << " and ";
-    cout << no2;
-    cout << ", then\n";
-    cout << "the product is ";
-    cout << tot_pro;
-    cout << " and the sum is ";
-    cout << tot_sum;
+    cout <<  "If you have a rectangular area ";
+    cout << width;
+    cout << " ft \n";
+    cout << "by ";
+    cout << height;
+    cout << " ft, then\n";
+    cout << "you need ";
+    cout << totalLength;
+    cout << " ft of fence to enclose the rectangular area.\n";
    
            
     

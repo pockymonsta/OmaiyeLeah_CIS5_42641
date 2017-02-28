@@ -1,7 +1,7 @@
 /* File:   main.cpp
  *Author: Leah Omaiye
  *Created on February 26, 2017, 12:20 PM
- *Purpose:  Output Big C
+ *Purpose:  Output  C S ! with * border
  */
 
 //System Libraries

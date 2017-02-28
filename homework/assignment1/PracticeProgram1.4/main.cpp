@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Leah Omaiye
  * Created on February 26, 2017, 11:32 AM
- * Purpose: Practice Program 1
+ * Purpose: change * to + in pea pod program
  */
 
 //System Libraries
