@@ -31,12 +31,10 @@ int main(int argc, char** argv) {
   do //loop the program until user answers all 10 riddles correctly
    {
     
-   
     cout << "\nAnswer all ten riddles to exit the game...\n...or be doomed to loop the program forever...\n";
     
     cout << "Riddle 1: What number do you get when you multiply all of the numbers on a telephone number pad? \n";
     cout << "HINT: multiply all numbers from 0-9.\n";
-   
     //Map inputs to outputs or process the data
     
     for (int count = 3; count > 0; count--) //user has 3 tries
@@ -287,7 +285,7 @@ int main(int argc, char** argv) {
     
     //Output the transformed data
     
-    if (cont == true)
+    if (cont == true) //winning message will be displayed if user answers 10th riddle
     {
         cout << "CONGRATULATIONS! YOU'VE WON.\n";
         cout << "You get a cookie!\n";
