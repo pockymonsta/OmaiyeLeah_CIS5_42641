@@ -1,0 +1,84 @@
+/*
+* File:   main.cpp
+* Author: Leah Omaiye
+* Created on May 31, 2017 11:11 PM
+* Purpose:  Crazy Eights Project v6
+*/
+
+//System Libraries
+ //Input - Output Library
+// use random_shuffle
+//file I/O
+//format output
+//use srand to set seed
+//time for rand
+//string
+//Name-space under which system libraries exist
+
+//User Libraries
+
+//Global Constants
+
+//Function Prototypes
+//display rules of game
+//initialize deck with 52 cards
+
+//function to get top card
+ //function to get suit
+ //function to get card number
+//function to deal hand
+//function for players to draw card
+//function to calculate score
+
+//Execution begins here
+ //display rules of game first
+
+    //set rand num seed
+
+
+    //Declare and initialize variables
+     //input file
+     //output file
+    //string name of players
+    //p1 and p2's cards
+    //players' choices
+    //size of hand array
+    //7 cards for each player
+    // initial deck starts with 52 cards
+     //cards left in deck after dealing/drawing
+     //deck as a pointer   
+     //players' hands as pointers
+
+    //Input data
+//file to store scores and player names
+//function to initialize  deck
+
+   //function to shuffle deck
+
+ //top card dealt from deck
+ //represent actual card number as value of card and suit
+
+        //functions to deal hands to players
+  //populate p1 hand array
+//display actual card number 
+//display value of card and suit
+//same for p2 hand array
+//players choose to draw a card or play a card
+//players choose which cards to play from their hand
+//check to see if card is playable
+//compare number of cards in players' hands 
+//least number of cards wins
+//calculate score
+        // delete pointers
+
+    //Exit stage right!
+//close files
+
+//display rules
+ //function to initialize 52 cards in the deck 
+//function to get top card and deal cards
+//deck size shrinks as cards are dealt
+//function to get suit of card
+// function to get value of card
+//function to populate hand pointer with dealt cards
+//function to calculate score
